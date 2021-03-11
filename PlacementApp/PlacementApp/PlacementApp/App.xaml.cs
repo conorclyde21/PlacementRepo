@@ -1,6 +1,5 @@
-﻿using System;
+﻿using PlacementApp.Pages;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace PlacementApp
 {
@@ -10,7 +9,7 @@ namespace PlacementApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
