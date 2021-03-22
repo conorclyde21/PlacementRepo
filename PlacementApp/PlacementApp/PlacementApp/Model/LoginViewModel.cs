@@ -51,6 +51,7 @@ namespace PlacementApp.Model
                 //ValidLoginPrompt();
                 App.Current.MainPage.Navigation.PushAsync(new MainMenu());
             }
+
         }
     }
 }

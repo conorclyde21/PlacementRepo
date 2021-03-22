@@ -1,10 +1,29 @@
 ﻿using PlacementApp.Pages;
 using Xamarin.Forms;
+using System;
+using System.IO;
+using PlacementApp.Data;
 
 namespace PlacementApp
 {
     public partial class App : Application
     {
+        static PlacementDatabaseController placementDatabase;
+
+        public static PlacementDatabaseController PlacementDatabase
+        {
+            get
+            {
+                if (placementDatabase == null)
+                {
+                    placementDatabase = new PlacementDatabaseController();
+
+                }
+                return placementDatabase;
+            }
+        }
+
+
         public App()
         {
             InitializeComponent();
@@ -23,5 +42,7 @@ namespace PlacementApp
         protected override void OnResume()
         {
         }
+
+        
     }
 }
