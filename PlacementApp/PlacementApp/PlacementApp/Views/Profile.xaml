@@ -2,11 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PlacementApp.Pages.Profile">
+    BackgroundColor = Color.FromHex("BDBDBD")
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Profile"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" TextColor= "Green" />
+
+            
+            <Image Source="" />
+            
+            <Label Text="Student Name" />
+
+            <DatePicker />
+
+            <Label Text="Course" />
+
+            <Label Text="Address" />
+
+            <Editor />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

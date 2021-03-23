@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
              x:Class="PlacementApp.Pages.LoginPage"
              NavigationPage.HasNavigationBar="false">
+    BackgroundColor = Color.FromHex("BDBDBD")
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="30,80,30,40" Spacing="40">
 
