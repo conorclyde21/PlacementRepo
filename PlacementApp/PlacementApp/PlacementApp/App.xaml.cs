@@ -28,7 +28,9 @@ namespace PlacementApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage());
+            //MainPage = new NavigationPage(new LoginPage());
+
+            MainPage = new NavigationPage(new MainMenu());
         }
 
         protected override void OnStart()
