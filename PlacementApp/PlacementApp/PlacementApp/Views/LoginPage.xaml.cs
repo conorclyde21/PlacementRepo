@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using PlacementApp.Model;
+using PlacementApp.Data;
 using PlacementApp.Models;
 
 namespace PlacementApp.Pages
@@ -9,10 +9,14 @@ namespace PlacementApp.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+
+        PlacementDatabaseController userData;
+
         public LoginPage()
         {
             InitializeComponent();
             Init();
+            userData = new PlacementDatabaseController();
 
             /*
 
@@ -44,7 +48,7 @@ namespace PlacementApp.Pages
         }
 
 
-
+        /*
         void SignInProcedure(object sender, EventArgs e)
         {
             User user = new User(Entry_Username.Text, Entry_Password.Text);
@@ -56,6 +60,32 @@ namespace PlacementApp.Pages
             else
             {
                 DisplayAlert("Login", "Login Not Correct, empty username or password", "Ok");
+            }
+        }
+        */
+
+        private async void SignInProcedure(object sender, EventArgs e)
+        {
+
+            if (Entry_Username.Text != null && Entry_Password.Text != null)
+            {
+                var validData = userData.LoginValidate(Entry_Username.Text, Entry_Password.Text);
+                if (validData)
+                {
+
+                    await App.Current.MainPage.Navigation.PushAsync(new MainMenu());
+
+                }
+                else
+                {
+                    
+                    await DisplayAlert("Login Failed", "Username or Password Incorrect", "OK");
+                }
+            }
+            else
+            {
+                
+                await DisplayAlert("Empty Fields", "Enter User Name and Password Please", "OK");
             }
         }
 
