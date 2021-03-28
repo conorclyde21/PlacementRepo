@@ -34,8 +34,10 @@ namespace PlacementApp.Pages
         {
             await Navigation.PushAsync(new AssessmentDetails());
         }
+
+        private async void MenuToLogin(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
     }
-
-
-
 }

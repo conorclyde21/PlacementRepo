@@ -13,9 +13,6 @@ namespace PlacementApp.Data
 
         SQLiteConnection database;
 
-        
-
-
         public PlacementDatabaseController()
         {
             database = DependencyService.Get<ISQLite>().GetConnection();

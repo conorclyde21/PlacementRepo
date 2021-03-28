@@ -23,7 +23,7 @@
             <Button Text="Profile" Clicked="MenuToProfile"/>
             <Button Text="Placement" Clicked="MenuToPlacement"/>
             <Button Text="Assessment" Clicked="MenuToAssessment"/>
-            <Button Text="Log Out" />
+            <Button Text="Log Out" Clicked="MenuToLogin"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
