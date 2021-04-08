@@ -4,22 +4,31 @@ using System.Collections.Generic;
 using System.Text;
 using PlacementApp.Models;
 using Xamarin.Forms;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace PlacementApp.Data
 {
+
+    
+
     public class PlacementDatabaseController
     {
         static object locker = new object();
 
         SQLiteConnection database;
 
-        public PlacementDatabaseController()
+
+
+            public PlacementDatabaseController()
         {
             database = DependencyService.Get<ISQLite>().GetConnection();
             database.CreateTable<User>();
         }
 
-        public User GetUser()
+        
+
+            public User GetUser()
         {
             lock (locker)
             {
@@ -51,6 +60,7 @@ namespace PlacementApp.Data
             }
         }
 
+        /*
         public int DeleteUser(int id)
         {
             lock (locker)
@@ -58,6 +68,7 @@ namespace PlacementApp.Data
                 return database.Delete<User>(id);
             }
         }
+        */
 
         public bool LoginValidate(string userName1, string pwd1)
         {
@@ -71,6 +82,5 @@ namespace PlacementApp.Data
             else
                 return false;
         }
-
     }
 }

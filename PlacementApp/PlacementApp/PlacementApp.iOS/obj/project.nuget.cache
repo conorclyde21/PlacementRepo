@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wxf+nVZyJD6aVutfkgifh1jGOEEHot2aOLRl6fvdOsd68FC9bUyk7hjOqKk0iQ+Q0ogUqd8dXZDFqpJ55L6kJw==",
+  "dgSpecHash": "dRdMvI4uh461re+xCRrddiLm2eehS91T4Epj3AvOuQbwEjfYjy3ZR3z9oF8/xSQ1ZgJnjV3Me1jXGVeP01UFjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\owenk\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\owenk\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
     "C:\\Users\\owenk\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\owenk\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
     "C:\\Users\\owenk\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\owenk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",

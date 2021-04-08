@@ -512,3 +512,4 @@ C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp
 C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp.Android\obj\Debug\90\android\assets\System.Text.Encoding.dll
 C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp.Android\obj\Debug\90\android\assets\System.Threading.dll
 C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp.Android\obj\Debug\90\res\drawable\foyleinternationallogo.png
+C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp.Android\obj\Debug\90\android\assets\System.Data.SqlClient.dll

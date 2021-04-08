@@ -17,17 +17,24 @@ using Xamarin.Forms;
 
 namespace PlacementApp.Droid.Data
 {
+
     public class SQLite_Android : ISQLite
     {
+        
         public SQLite_Android() { }
+        
+        
         public SQLite.SQLiteConnection GetConnection()
         {
-            var sqliteFileName = @"Data Source=LAPTOP-GLNNG57B\SQLEXPRESS01;Initial Catalog=TestDatabaseFI;Integrated Security=True";
+            
+            var sqliteFileName = @"Data Source = LAPTOP - GLNNG57B\SQLEXPRESS01; Initial Catalog = TestDatabaseFI; Integrated Security = True";
             string documentPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var path = Path.Combine(documentPath, sqliteFileName);
             var conn = new SQLite.SQLiteConnection(path);
 
             return conn;
+            
         }
+        
     }
 }

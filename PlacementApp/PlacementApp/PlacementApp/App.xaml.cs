@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using System;
 using System.IO;
 using PlacementApp.Data;
+using PlacementApp.Views;
 
 namespace PlacementApp
 {
@@ -28,9 +29,8 @@ namespace PlacementApp
         {
             InitializeComponent();
 
-            //MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new LoginPage());
 
-            MainPage = new NavigationPage(new MainMenu());
         }
 
         protected override void OnStart()

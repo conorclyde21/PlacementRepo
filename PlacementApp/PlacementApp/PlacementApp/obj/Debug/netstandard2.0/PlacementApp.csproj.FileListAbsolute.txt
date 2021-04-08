@@ -17,3 +17,4 @@ C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp
 C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs
 C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\PlacementDetails.xaml.g.cs
 C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\Profile.xaml.g.cs
+C:\Users\owenk\source\repos\PlacementRepo\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\LoginPage123.xaml.g.cs

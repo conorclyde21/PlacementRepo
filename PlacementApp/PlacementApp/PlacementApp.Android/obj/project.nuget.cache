@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9Z8GYmM3sIFSK4D0upxKFiUrQvXE3/OGvsu7i/SbYB3SNvPWgNGNETE5RjkwhA27aagKompJ4l5enL/VOcU1yQ==",
+  "dgSpecHash": "iR0QKeq+ynISRo3vCI9oyxA84xuEQ5OxeblfW7NzqdPug1oaM0xH67MATlbEMMgeDhGRPtefO7ftkhj/KOQwig==",
   "success": true,
   "projectFilePath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\owenk\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.3\\sqlitepclraw.lib.e_sqlite3.android.2.0.3.nupkg.sha512",
     "C:\\Users\\owenk\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
     "C:\\Users\\owenk\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\owenk\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
     "C:\\Users\\owenk\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\owenk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

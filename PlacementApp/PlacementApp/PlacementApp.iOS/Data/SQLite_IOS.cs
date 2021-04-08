@@ -18,7 +18,7 @@ namespace PlacementApp.iOS.Data
         public SQLite_IOS() { }
         public SQLite.SQLiteConnection GetConnection()
         {
-            var fileName = @"Data Source=LAPTOP-GLNNG57B\SQLEXPRESS01;Initial Catalog=TestDatabaseFI;Integrated Security=True";
+            var fileName = @"Data Source = LAPTOP - GLNNG57B\SQLEXPRESS01; Initial Catalog = TestDatabaseFI; Integrated Security = True";
             var documentPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             var libraryPath = Path.Combine(documentPath, "..", "Library");
             var path = Path.Combine(libraryPath, fileName);
