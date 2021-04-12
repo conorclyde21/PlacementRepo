@@ -7,28 +7,7 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="30,80,30,40" Spacing="40">
 
-            <Image Source="FoyleInternationalLogo"
-       WidthRequest="{OnPlatform iOS=300, Android=250}"
-       HorizontalOptions="Center" />
-
-
-            <BoxView HeightRequest="10"/>
-
-            <Frame BackgroundColor="#BF043055" HasShadow="False">
-                <StackLayout Orientation="Vertical" Spacing="10">
-
-                    <Entry x:Name="Entry_Username" Text="{Binding Username}" Placeholder="Username"   
-                           PlaceholderColor="White" HeightRequest="40"    
-                           TextColor="White"/>
-                    <Entry x:Name="Entry_Password" Text="{Binding Password}" Placeholder="Password"   
-                           PlaceholderColor="White" HeightRequest="40"   
-                           IsPassword="True"  
-                           TextColor="White"/>
-                </StackLayout>
-            </Frame>
-            <Button x:Name="Btn_Signin" Text="Login" TextColor="White"  
-                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
-                    BackgroundColor="#088da5" Clicked="button1_Click"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>  
