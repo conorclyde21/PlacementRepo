@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlacementApp.Android", "Pla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlacementApp.iOS", "PlacementApp\PlacementApp.iOS\PlacementApp.iOS.csproj", "{E085BC54-4E5C-4968-B776-BBCDD57B1D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlacementApp", "PlacementApp\PlacementApp\PlacementApp.csproj", "{17C9A4EA-F7FB-4BCF-AF76-1723EF4FF6FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlacementApp", "PlacementApp\PlacementApp\PlacementApp.csproj", "{17C9A4EA-F7FB-4BCF-AF76-1723EF4FF6FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

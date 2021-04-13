@@ -3,10 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PlacementApp.Views.PlacementDetails">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="#BEBEBE" Orientation="Vertical" Padding="30,80,30,40" Spacing="40">
             <Label Text="Placement Details"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="Green" />
+
+            <Label Text="Job Title:" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Medium"/>
+
+            <Label Text="Company Name:" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Medium"/>
+
+            <Label Text="Company Desc:" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Medium"/>
+
+            <Label Text="Company Address:" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Medium"/>
+
+            <Label Text="Map:" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Medium"/>
+
+            <Label Text="Schedule:" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Medium"/>
+            
+            
+
+            <Button Text="Return to Main Menu"
+                HorizontalOptions="StartAndExpand" 
+                TextColor="Green"
+                BackgroundColor="#BEBEBE"
+                BorderColor="Green"
+                BorderWidth="3"
+                CornerRadius="5"
+                WidthRequest="120"
+                HeightRequest="60" TextTransform="None" />
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
