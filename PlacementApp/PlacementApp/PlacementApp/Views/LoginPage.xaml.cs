@@ -10,13 +10,13 @@ namespace PlacementApp.Pages
     public partial class LoginPage : ContentPage
     {
 
-        PlacementDatabaseController userData;
+        PlacementDatabaseControllerConstants userData;
 
         public LoginPage()
         {
             InitializeComponent();
             Init();
-            userData = new PlacementDatabaseController();
+            userData = new PlacementDatabaseControllerConstants();
         }
 
 
@@ -32,7 +32,7 @@ namespace PlacementApp.Pages
 
             if (Entry_Username.Text != null && Entry_Password.Text != null)
             {
-                var validData = userData.LoginValidate(Entry_Username.Text, Entry_Password.Text);
+                var validData = userData.LoginValidateConstants(Entry_Username.Text, Entry_Password.Text);
                 if (validData)
                 {
 

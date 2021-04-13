@@ -7,7 +7,7 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="30,80,30,40" Spacing="40">
 
-            
+
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>  
+</ContentPage>    
