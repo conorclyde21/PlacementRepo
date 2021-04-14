@@ -1894,24 +1894,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clyde\\.nuget\\packages\\": {},
+    "C:\\Users\\owenk\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
       "projectName": "PlacementApp.iOS",
-      "projectPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
-      "outputPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\owenk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\clyde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\owenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1925,8 +1925,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
-              "projectPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
+            "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
+              "projectPath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
             }
           }
         }
