@@ -3,10 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PlacementApp.Views.AssessmentDetails">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Assessment Details"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView HeightRequest="3000">
+            <StackLayout BackgroundColor="#BEBEBE" Orientation="Vertical" Padding="20,20" Spacing="20">
+                <Label Text="Assessment Details" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
+
+
+                <Button Text="Return to Main Menu"
+                HorizontalOptions="StartAndExpand" 
+                TextColor="Green"
+                BackgroundColor="#BEBEBE"
+                BorderColor="Green"
+                BorderWidth="3"
+                CornerRadius="5"
+                WidthRequest="120"
+                HeightRequest="60" TextTransform="None" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
