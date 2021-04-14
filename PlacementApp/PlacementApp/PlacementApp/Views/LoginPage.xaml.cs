@@ -41,7 +41,6 @@ namespace PlacementApp.Pages
                 }
                 else
                 {
-                    
                     DisplayAlert("Login Failed", "Username or Password Incorrect", "OK");
                 }
             }

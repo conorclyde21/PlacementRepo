@@ -75,7 +75,7 @@ namespace PlacementApp.Data
             var data = database.Table<Constants>();
             var d1 = Constants.Username == userName1 && Constants.Password == pwd1;
 
-            if (d1 != null)
+            if (d1 == true)
             {
                 return true;
             }
