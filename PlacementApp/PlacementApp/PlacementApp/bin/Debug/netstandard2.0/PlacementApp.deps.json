@@ -13,6 +13,7 @@
           "System.Data.SqlClient": "4.8.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.DataGrid": "4.8.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "runtime": {
@@ -217,6 +218,17 @@
             "fileVersion": "5.0.0.671"
           }
         }
+      },
+      "Xamarin.Forms.DataGrid/4.8.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
       }
     }
   },
@@ -386,6 +398,13 @@
       "sha512": "sha512-Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
       "path": "xamarin.forms/5.0.0.2012",
       "hashPath": "xamarin.forms.5.0.0.2012.nupkg.sha512"
+    },
+    "Xamarin.Forms.DataGrid/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aWVJQ2W5FKrmJgmt8aBhH1RumvUycM89vL0+JlTril+4QciUwerNCr9FV62jBeEXBp6/VUF4XX+9MfJtzjPWjQ==",
+      "path": "xamarin.forms.datagrid/4.8.0",
+      "hashPath": "xamarin.forms.datagrid.4.8.0.nupkg.sha512"
     }
   }
 }

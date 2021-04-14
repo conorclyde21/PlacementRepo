@@ -2,39 +2,86 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PlacementApp.Views.PlacementDetails">
+    
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#BEBEBE" Orientation="Vertical" Padding="30,80,30,40" Spacing="40">
-            <Label Text="Placement Details"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="CenterAndExpand" TextColor="Green" />
+        <ScrollView HeightRequest="3000">
+            <StackLayout BackgroundColor="#BEBEBE" Orientation="Vertical" Padding="20,20" Spacing="20">
 
-            <Label Text="Job Title:" 
+                <Label Text="Placement Details" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.3*" />
+                        <ColumnDefinition Width="0.7*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                    </Grid.RowDefinitions>
+                    <Label Text="Job Title:" FontSize="Subtitle"/>
+                    <Label Grid.Column="1" Text="Example job title" />
+                    <Label Grid.Row="1" Text="Company:" FontSize="Subtitle" />
+                    <Label Grid.Row="1" Grid.Column="1" Text="Example company name"/>
+                    <Label Grid.Row="2" Text="Type:" FontSize="Subtitle"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Example company type"/>
+                    <Label Grid.Row="3" Text="Scope:" FontSize="Subtitle"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Example company scope"/>
+                    <Label Grid.Row="4" Text="Desc:" FontSize="Subtitle"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="Example description of the company" />
+                    <Label Grid.Row="5" Text="Address:" FontSize="Subtitle"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="Example address of the company"/>
+                    <Label Grid.Row="6" Text="Map:" FontSize="Subtitle"/>
+                    <Label Grid.Row="7" Text="Example map"/>
+                    <Label Grid.Row="8" Text="Website:" FontSize="Subtitle"/>
+                    <Label Grid.Row="8" Grid.Column="1" Text="Example website"/>
+                    <Label Grid.Row="9" Text="Email:" FontSize="Subtitle"/>
+                    <Label Grid.Row="9" Grid.Column="1" Text="Example email"/>
+                    <Label Grid.Row="10" Text="Phone:" FontSize="Subtitle"/>
+                    <Label Grid.Row="10" Grid.Column="1" Text="Example phone"/>
+                </Grid>
+
+                <Label Text="Schedule:" 
                 VerticalOptions="StartAndExpand"
-                FontSize="Medium"/>
+                FontSize="Subtitle"/>
+                
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*" />
+                        <ColumnDefinition Width="0.5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+                <Label Grid.ColumnSpan="2" Text="Emergency Numbers:" FontSize="Subtitle"/>
+                    <Label Grid.Row="1" Text="Name Name &#x0a;Name Name"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="07583717313 &#x0a;07543753215"/>
+                </Grid>
 
-            <Label Text="Company Name:" 
-                VerticalOptions="StartAndExpand"
-                FontSize="Medium"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*" />
+                        <ColumnDefinition Width="0.5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.ColumnSpan="2" Text="Additional Information:" FontSize="Subtitle"/>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Example additional information"/>
+                </Grid>
 
-            <Label Text="Company Desc:" 
-                VerticalOptions="StartAndExpand"
-                FontSize="Medium"/>
 
-            <Label Text="Company Address:" 
-                VerticalOptions="StartAndExpand"
-                FontSize="Medium"/>
-
-            <Label Text="Map:" 
-                VerticalOptions="StartAndExpand"
-                FontSize="Medium"/>
-
-            <Label Text="Schedule:" 
-                VerticalOptions="StartAndExpand"
-                FontSize="Medium"/>
-            
-            
-
-            <Button Text="Return to Main Menu"
+                <Button Text="Return to Main Menu"
                 HorizontalOptions="StartAndExpand" 
                 TextColor="Green"
                 BackgroundColor="#BEBEBE"
@@ -44,7 +91,8 @@
                 WidthRequest="120"
                 HeightRequest="60" TextTransform="None" />
 
-
+          
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
