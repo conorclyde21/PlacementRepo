@@ -7,6 +7,26 @@
             <StackLayout BackgroundColor="#BEBEBE" Orientation="Vertical" Padding="20,20" Spacing="20">
                 <Label Text="Assessment Details" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
 
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*" />
+                        <ColumnDefinition Width="0.5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.ColumnSpan="2" Text="Tasks to Complete:" FontSize="Subtitle"/>
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Example tasks"/>
+                </Grid>
+
+                <Label Text="Assessments:" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Subtitle"/>
+
+                <Label Text="Diagram" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Subtitle"/>
 
                 <Button Text="Return to Main Menu"
                 HorizontalOptions="StartAndExpand" 

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj": {}
+    "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj": {
+    "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
+        "projectUniqueName": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
         "projectName": "PlacementApp.Android",
-        "projectPath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
-        "packagesPath": "C:\\Users\\owenk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp.Android\\obj\\",
+        "projectPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
+        "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
+        "outputPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\owenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\clyde\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
-                "projectPath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
+              "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
+                "projectPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
               }
             }
           }
@@ -70,20 +70,20 @@
         }
       }
     },
-    "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
+    "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
+        "projectUniqueName": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
         "projectName": "PlacementApp",
-        "projectPath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
-        "packagesPath": "C:\\Users\\owenk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owenk\\source\\repos\\PlacementRepo\\PlacementApp\\PlacementApp\\PlacementApp\\obj\\",
+        "projectPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
+        "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
+        "outputPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\owenk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\clyde\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
