@@ -1900,11 +1900,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
+      "projectUniqueName": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
       "projectName": "PlacementApp.iOS",
-      "projectPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
+      "projectPath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
       "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
-      "outputPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\obj\\",
+      "outputPath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1925,8 +1925,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
-              "projectPath": "D:\\School 110421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
+            "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
+              "projectPath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
             }
           }
         }

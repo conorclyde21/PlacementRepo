@@ -27,6 +27,8 @@ namespace PlacementApp
 
         public App()
         {
+            Xamarin.Forms.DataGrid.DataGridComponent.Init();
+
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainMenu());
