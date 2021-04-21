@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="PlacementApp.Views.PlacementDetails">
     
     <ContentPage.Content>
@@ -48,6 +48,8 @@
                     <Label Grid.Row="10" Text="Phone:" FontSize="Subtitle"/>
                     <Label Grid.Row="10" Grid.Column="1" Text="Example phone"/>
                 </Grid>
+
+
 
                 <Label Text="Schedule:" 
                 VerticalOptions="StartAndExpand"

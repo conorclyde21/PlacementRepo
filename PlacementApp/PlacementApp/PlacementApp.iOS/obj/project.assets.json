@@ -288,6 +288,20 @@
           "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2012": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PlacementApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -296,6 +310,7 @@
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.DataGrid": "4.8.0",
+          "Xamarin.Forms.Maps": "5.0.0.2012",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -583,6 +598,20 @@
           "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2012": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PlacementApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -591,6 +620,7 @@
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.DataGrid": "4.8.0",
+          "Xamarin.Forms.Maps": "5.0.0.2012",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -878,6 +908,20 @@
           "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2012": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PlacementApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -886,6 +930,7 @@
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.DataGrid": "4.8.0",
+          "Xamarin.Forms.Maps": "5.0.0.2012",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -1173,6 +1218,20 @@
           "lib/netstandard2.0/Xamarin.Forms.DataGrid.dll": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2012": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PlacementApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1181,6 +1240,7 @@
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.DataGrid": "4.8.0",
+          "Xamarin.Forms.Maps": "5.0.0.2012",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -1876,6 +1936,40 @@
         "xamarin.forms.datagrid.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/5.0.0.2012": {
+      "sha512": "Zq1mv6sybHzQYWcOYOuLDV1LWQiioGN6kmleau7frhkVLf68FSXd/GIq4uA92TIOYMW9MxmZKOSBW8VVPis5pQ==",
+      "type": "package",
+      "path": "xamarin.forms.maps/5.0.0.2012",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.5.0.0.2012.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "PlacementApp/1.0.0": {
       "type": "project",
       "path": "../PlacementApp/PlacementApp.csproj",
@@ -1890,6 +1984,7 @@
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
       "Xamarin.Forms.DataGrid >= 4.8.0",
+      "Xamarin.Forms.Maps >= 5.0.0.2012",
       "sqlite-net-pcl >= 1.7.335"
     ]
   },
@@ -1954,6 +2049,10 @@
           "Xamarin.Forms.DataGrid": {
             "target": "Package",
             "version": "[4.8.0, )"
+          },
+          "Xamarin.Forms.Maps": {
+            "target": "Package",
+            "version": "[5.0.0.2012, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

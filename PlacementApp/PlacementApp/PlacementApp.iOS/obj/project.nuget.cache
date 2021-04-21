@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RskyoVQ6GVbTVhNT09yK6wHuestDRYh+LtYNd+oG/TogtbM4kFRFmPWZMpnlmKxT36ibjca1iVLqScWYvjZKpQ==",
+  "dgSpecHash": "mZogsGgz9YSHF8q9WA9A+mk1URAFBWh1hHoCMXtUX0cLrY5OL+2qGIV7a518rtm5dyG/+wfBVoJAol1/OYJqMA==",
   "success": true,
   "projectFilePath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\clyde\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
-    "C:\\Users\\clyde\\.nuget\\packages\\xamarin.forms.datagrid\\4.8.0\\xamarin.forms.datagrid.4.8.0.nupkg.sha512"
+    "C:\\Users\\clyde\\.nuget\\packages\\xamarin.forms.datagrid\\4.8.0\\xamarin.forms.datagrid.4.8.0.nupkg.sha512",
+    "C:\\Users\\clyde\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }
