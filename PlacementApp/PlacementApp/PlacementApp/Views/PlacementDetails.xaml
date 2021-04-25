@@ -4,58 +4,67 @@
              x:Class="PlacementApp.Views.PlacementDetails">
     
     <ContentPage.Content>
+        <!--Allows user to scroll down page-->
         <ScrollView HeightRequest="3000">
-            <StackLayout BackgroundColor="#BEBEBE" Orientation="Vertical" Padding="20,20" Spacing="20">
-
+            <StackLayout Orientation="Vertical" Padding="20,20" Spacing="20">
+                <!--Page header-->
                 <Label Text="Placement Details" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
 
+                <!--Grid layout-->
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="0.3*" />
-                        <ColumnDefinition Width="0.7*" />
+                        <ColumnDefinition Width="0.25*" />
+                        <ColumnDefinition Width="0.75*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40" />
                         <RowDefinition Height="40" />
+                        <RowDefinition Height="150" />
                         <RowDefinition Height="40" />
                         <RowDefinition Height="40" />
                         <RowDefinition Height="40" />
-                        <RowDefinition Height="40" />
-                        <RowDefinition Height="40" />
-                        <RowDefinition Height="40" />
-                        <RowDefinition Height="40" />
-                        <RowDefinition Height="40" />
-                        <RowDefinition Height="40" />
+                        <RowDefinition Height="150" />
                     </Grid.RowDefinitions>
                     <Label Text="Job Title:" FontSize="Subtitle"/>
                     <Label Grid.Column="1" Text="Example job title" />
                     <Label Grid.Row="1" Text="Company:" FontSize="Subtitle" />
                     <Label Grid.Row="1" Grid.Column="1" Text="Example company name"/>
-                    <Label Grid.Row="2" Text="Type:" FontSize="Subtitle"/>
-                    <Label Grid.Row="2" Grid.Column="1" Text="Example company type"/>
-                    <Label Grid.Row="3" Text="Scope:" FontSize="Subtitle"/>
-                    <Label Grid.Row="3" Grid.Column="1" Text="Example company scope"/>
-                    <Label Grid.Row="4" Text="Desc:" FontSize="Subtitle"/>
-                    <Label Grid.Row="4" Grid.Column="1" Text="Example description of the company" />
-                    <Label Grid.Row="5" Text="Address:" FontSize="Subtitle"/>
-                    <Label Grid.Row="5" Grid.Column="1" Text="Example address of the company"/>
-                    <Label Grid.Row="6" Text="Map:" FontSize="Subtitle"/>
-                    <Label Grid.Row="7" Text="Example map"/>
-                    <Label Grid.Row="8" Text="Website:" FontSize="Subtitle"/>
-                    <Label Grid.Row="8" Grid.Column="1" Text="Example website"/>
-                    <Label Grid.Row="9" Text="Email:" FontSize="Subtitle"/>
-                    <Label Grid.Row="9" Grid.Column="1" Text="Example email"/>
-                    <Label Grid.Row="10" Text="Phone:" FontSize="Subtitle"/>
-                    <Label Grid.Row="10" Grid.Column="1" Text="Example phone"/>
+                    <Label Grid.Row="2" Text="Desc:" FontSize="Subtitle"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Example description of the company" />
+                    <Label Grid.Row="3" Text="Website:" FontSize="Subtitle"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Example website"/>
+                    <Label Grid.Row="4" Text="Email:" FontSize="Subtitle"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="Example email"/>
+                    <Label Grid.Row="5" Text="Phone:" FontSize="Subtitle"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="Example phone"/>
+                    <Label Grid.Row="6" Text="Address:" FontSize="Subtitle"/>
+                    <Label Grid.Row="6" Grid.Column="1" Text="Example address of the company"/>
                 </Grid>
 
+                <Label Text="Map:" 
+                VerticalOptions="StartAndExpand"
+                FontSize="Subtitle"/>
 
+                <maps:Map Grid.Row="5">
+                    <x:Arguments>
+                        <maps:MapSpan>
+                            <x:Arguments>
+                                <maps:Position>
+                                    <x:Arguments>
+                                        <x:Double>36.9628066</x:Double>
+                                        <x:Double>-122.0194722</x:Double>
+                                    </x:Arguments>
+                                </maps:Position>
+                                <x:Double>0.01</x:Double>
+                                <x:Double>0.01</x:Double>
+                            </x:Arguments>
+                        </maps:MapSpan>
+                    </x:Arguments>
+                </maps:Map>
 
                 <Label Text="Schedule:" 
                 VerticalOptions="StartAndExpand"
                 FontSize="Subtitle"/>
-
-
 
                 <dg:DataGrid ItemsSource="{Binding Schedules}" SelectionEnabled="True" SelectedItem="{Binding SelectedSchedule}" RowHeight="70" HeaderHeight="50"  
                     BorderColor="#CCCCCC" HeaderBackground="#E0E6F8" PullToRefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ActiveRowColor="White">
@@ -80,10 +89,6 @@
                         </dg:PaletteCollection>
                     </dg:DataGrid.RowsBackgroundColorPalette>
                 </dg:DataGrid>
-
-
-
-
 
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -116,7 +121,7 @@
                 <Button Text="Return to Main Menu"
                 HorizontalOptions="StartAndExpand" 
                 TextColor="Green"
-                BackgroundColor="#BEBEBE"
+                BackgroundColor="White"
                 BorderColor="Green"
                 BorderWidth="3"
                 CornerRadius="5"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mZogsGgz9YSHF8q9WA9A+mk1URAFBWh1hHoCMXtUX0cLrY5OL+2qGIV7a518rtm5dyG/+wfBVoJAol1/OYJqMA==",
+  "dgSpecHash": "HtxHYrG4e85huxug3dKjLzSx1PaXG+FyrtopMXNDsB2mvBmkBtFNrAmowDhwBH5NQaTPgouHG4dEwwo3bZUy4Q==",
   "success": true,
   "projectFilePath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,9 @@
     "C:\\Users\\clyde\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.licensing\\19.1.0.57\\syncfusion.licensing.19.1.0.57.nupkg.sha512",
+    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.xamarin.core\\19.1.0.57\\syncfusion.xamarin.core.19.1.0.57.nupkg.sha512",
+    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.xamarin.sfchart\\19.1.0.57\\syncfusion.xamarin.sfchart.19.1.0.57.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",

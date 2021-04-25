@@ -1,69 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid" xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
              x:Class="PlacementApp.Views.AssessmentDetails">
     <ContentPage.Content>
         <ScrollView HeightRequest="3000">
-            <StackLayout BackgroundColor="#BEBEBE" Orientation="Vertical" Padding="20,20" Spacing="20">
-                <Label Text="Assessment Details" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
-
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="0.5*" />
-                        <ColumnDefinition Width="0.5*" />
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="30" />
-                        <RowDefinition Height="100" />
-                    </Grid.RowDefinitions>
-                    <Label Grid.ColumnSpan="2" Text="Tasks to Complete:" FontSize="Subtitle"/>
-                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Example tasks"/>
-                </Grid>
-
-                <Label Text="Assessments:" 
-                VerticalOptions="StartAndExpand"
-                FontSize="Subtitle"/>
+            <StackLayout Orientation="Vertical" Padding="20,20" Spacing="20">
+                <Label Text="Assessments" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
 
 
+                <Label Text="Your assessments are displayed in the following chart:" 
+                VerticalOptions="Start"/>
 
-                <dg:DataGrid ItemsSource="{Binding Assessments}" SelectionEnabled="True" SelectedItem="{Binding SelectedAssessment}" RowHeight="70" HeaderHeight="50"  
-                    BorderColor="#CCCCCC" HeaderBackground="#E0E6F8" PullToRefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ActiveRowColor="White">
-                    <x:Arguments>
-                        <ListViewCachingStrategy>RetainElement</ListViewCachingStrategy>
-                    </x:Arguments>
-                    <dg:DataGrid.HeaderFontSize>
-                        <OnIdiom x:TypeArguments="x:Double">
-                            <OnIdiom.Tablet>15</OnIdiom.Tablet>
-                            <OnIdiom.Phone>12</OnIdiom.Phone>
-                        </OnIdiom>
-                    </dg:DataGrid.HeaderFontSize>
-                    <dg:DataGrid.Columns>
-                        <dg:DataGridColumn Title="ID" PropertyName="AssessmentID" Width="2*"/>
-                        <dg:DataGridColumn Title="Date" PropertyName="AssessmentDate" Width="2*"/>
-                        <dg:DataGridColumn Title="Desc" PropertyName="AssessmentItemDesc" Width="2*"/>
-                        <dg:DataGridColumn Title="Score" PropertyName="AssessmentItemScore" Width="2*"/>
-                    </dg:DataGrid.Columns>
-                    <dg:DataGrid.RowsBackgroundColorPalette>
-                        <dg:PaletteCollection>
-                            <Color>#F2F2F2</Color>
-                            <Color>#FFFFFF</Color>
-                        </dg:PaletteCollection>
-                    </dg:DataGrid.RowsBackgroundColorPalette>
-                </dg:DataGrid>
+                <chart:SfChart>
+
+                    <chart:SfChart.PrimaryAxis>
+                        <chart:CategoryAxis/>
+                    </chart:SfChart.PrimaryAxis>
+
+                    <chart:SfChart.SecondaryAxis>
+                        <chart:NumericalAxis Interval="5"/>
+                    </chart:SfChart.SecondaryAxis>
+                    <chart:RadarSeries ItemsSource="{Binding RadarData}" DrawType="Line"
+          XBindingPath="Name" YBindingPath="Value"  />
+
+                </chart:SfChart>
 
 
 
 
+             
 
 
-                <Label Text="Diagram" 
-                VerticalOptions="StartAndExpand"
-                FontSize="Subtitle"/>
+
 
                 <Button Text="Return to Main Menu"
                 HorizontalOptions="StartAndExpand" 
                 TextColor="Green"
-                BackgroundColor="#BEBEBE"
                 BorderColor="Green"
                 BorderWidth="3"
                 CornerRadius="5"

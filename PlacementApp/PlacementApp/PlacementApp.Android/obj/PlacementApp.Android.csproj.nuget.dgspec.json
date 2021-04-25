@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[2.0.3, )"
             },
+            "Syncfusion.Xamarin.SfChart": {
+              "target": "Package",
+              "version": "[19.1.0.57, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.2, )"
@@ -119,6 +123,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Xamarin.SfChart": {
+              "target": "Package",
+              "version": "[19.1.0.57, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
