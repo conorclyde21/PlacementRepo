@@ -107,19 +107,18 @@
                 <Label Text="Additional Information:" FontSize="Subtitle"/>
                 <Label Text="Example additional information"/>
 
-
                 <!--Button to return to main menu-->
                 <Button Text="Return to Main Menu"
-                HorizontalOptions="StartAndExpand" 
+                HorizontalOptions="Start" 
                 TextColor="Green"
                 BackgroundColor="White"
+                Margin="0,20,0,0"
                 BorderColor="Green"
                 BorderWidth="3"
                 CornerRadius="5"
                 WidthRequest="120"
                 HeightRequest="60" TextTransform="None" />
 
-          
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>

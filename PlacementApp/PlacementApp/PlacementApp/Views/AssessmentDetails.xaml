@@ -30,6 +30,7 @@
                 HorizontalOptions="StartAndExpand" 
                 TextColor="Green"
                 BorderColor="Green"
+                Margin="0,20,0,0"
                 BorderWidth="3"
                 CornerRadius="5"
                 WidthRequest="120"
