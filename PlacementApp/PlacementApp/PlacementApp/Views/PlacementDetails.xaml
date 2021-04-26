@@ -10,7 +10,7 @@
                 <!--Page header-->
                 <Label Text="Placement Details" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
 
-                <!--Grid layout listing placement details-->
+                <!--Grid layout displaying job title and company details-->
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="0.25*" />
