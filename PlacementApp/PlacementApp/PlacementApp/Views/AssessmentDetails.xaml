@@ -11,6 +11,8 @@
         <!--Page heading-->
         <Label Text="Assessments" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
 
+        <Label Text="Your assessments are desribed in the following chart:" HorizontalOptions="CenterAndExpand" />
+
         <!--Chart desribing assessments-->
         <chart:SfChart>
             <chart:SfChart.PrimaryAxis>
@@ -26,15 +28,6 @@
         </chart:SfChart>
 
         <!--Button to return to main menu-->
-        <Button Text="Return to Main Menu"
-                HorizontalOptions="StartAndExpand" 
-                Margin="0,20,0,0"
-                BackgroundColor="White"
-                TextColor="Green"
-                BorderColor="Green"
-                BorderWidth="3"
-                CornerRadius="5"
-                WidthRequest="120"
-                HeightRequest="60" TextTransform="None" />
+        <Button Text="Return to Main Menu" HorizontalOptions="StartAndExpand" Margin="0,20,0,0" BackgroundColor="White" TextColor="Green" BorderColor="Green" BorderWidth="3" CornerRadius="5" WidthRequest="120" HeightRequest="60" TextTransform="None" />
     </StackLayout>
 </ContentPage>

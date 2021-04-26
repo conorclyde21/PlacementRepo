@@ -63,7 +63,7 @@
 
                 <Label Text="Schedule:" VerticalOptions="StartAndExpand" FontSize="Subtitle"/>
 
-                <!--Data grid displaying student's schedule-->
+                <!--DataGrid displaying student's schedule-->
                 <dg:DataGrid ItemsSource="{Binding Schedules}" SelectionEnabled="True" SelectedItem="{Binding SelectedSchedule}" RowHeight="70" HeaderHeight="50"  
                     BorderColor="#CCCCCC" HeaderBackground="#E0E6F8" PullToRefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ActiveRowColor="White">
                     <x:Arguments>
@@ -108,18 +108,8 @@
                 <Label Text="Example additional information"/>
 
                 <!--Button to return to main menu-->
-                <Button Text="Return to Main Menu"
-                HorizontalOptions="Start" 
-                Margin="0,20,0,0"
-                BackgroundColor="White"
-                TextColor="Green"
-                BorderColor="Green"
-                BorderWidth="3"
-                CornerRadius="5"
-                WidthRequest="120"
-                HeightRequest="60" TextTransform="None" />
-
-        </StackLayout>
+                <Button Text="Return to Main Menu" HorizontalOptions="Start" Margin="0,20,0,0" BackgroundColor="White" TextColor="Green" BorderColor="Green" BorderWidth="3" CornerRadius="5" WidthRequest="120" HeightRequest="60" TextTransform="None" />
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
