@@ -55,3 +55,23 @@ D:\School 210421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\
 D:\School 210421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.dll
 D:\School 210421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\ref\PlacementApp.dll
 D:\School 210421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.pdb
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\bin\Debug\netstandard2.0\PlacementApp.deps.json
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\bin\Debug\netstandard2.0\PlacementApp.dll
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\bin\Debug\netstandard2.0\ref\PlacementApp.dll
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\bin\Debug\netstandard2.0\PlacementApp.pdb
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.csprojAssemblyReference.cache
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\AssessmentDetails.xaml.g.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\PlacementDetails.xaml.g.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\Profile.xaml.g.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\Reflect.xaml.g.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.AssemblyInfoInputs.cache
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.AssemblyInfo.cs
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.csproj.CoreCompileInputs.cache
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.dll
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\ref\PlacementApp.dll
+C:\Users\Josh\Source\Repos\PlacementRepo4\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.pdb

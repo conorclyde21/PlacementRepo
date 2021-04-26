@@ -10,7 +10,7 @@
             <Button Text="Profile" Clicked="MenuToProfile"/>
             <Button Text="Placement" Clicked="MenuToPlacement"/>
             <Button Text="Assessment" Clicked="MenuToAssessment"/>
-            <Button Text="Reflect" Clicked="MenuToReflect"/>
+            <Button Text="Reflection Log" Clicked="MenuToReflect"/>
             <Button Text="Log Out" Clicked="MenuToLogin"/>
         </StackLayout>
     </ContentPage.Content>
