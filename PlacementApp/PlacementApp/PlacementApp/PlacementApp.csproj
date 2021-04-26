@@ -11,7 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Plugin.Geofence" Version="1.8.11" />
     <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
     <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="19.1.0.57" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />

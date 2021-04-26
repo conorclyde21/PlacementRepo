@@ -110,9 +110,9 @@
                 <!--Button to return to main menu-->
                 <Button Text="Return to Main Menu"
                 HorizontalOptions="Start" 
-                TextColor="Green"
-                BackgroundColor="White"
                 Margin="0,20,0,0"
+                BackgroundColor="White"
+                TextColor="Green"
                 BorderColor="Green"
                 BorderWidth="3"
                 CornerRadius="5"
