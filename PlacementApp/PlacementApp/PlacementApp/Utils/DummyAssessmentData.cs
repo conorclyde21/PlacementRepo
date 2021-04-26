@@ -17,10 +17,9 @@ namespace PlacementApp.Utils
                 AssessmentScore = "4"
             };
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 7; i++)
             {
                 data.Add(person);
-
             }
             return data;
         }

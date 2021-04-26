@@ -41,7 +41,7 @@
                     <Label Grid.Row="6" Grid.Column="1" Text="Example address of the company"/>
                 </Grid>
                 
-                <!--Grid layout-->
+
                 <Label Text="Map:" 
                 VerticalOptions="StartAndExpand"
                 FontSize="Subtitle"/>
@@ -69,6 +69,7 @@
                 VerticalOptions="StartAndExpand"
                 FontSize="Subtitle"/>
 
+                <!--Data grid for displaying schedule from database-->
                 <dg:DataGrid ItemsSource="{Binding Schedules}" SelectionEnabled="True" SelectedItem="{Binding SelectedSchedule}" RowHeight="70" HeaderHeight="50"  
                     BorderColor="#CCCCCC" HeaderBackground="#E0E6F8" PullToRefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" ActiveRowColor="White">
                     <x:Arguments>
@@ -81,7 +82,7 @@
                         </OnIdiom>
                     </dg:DataGrid.HeaderFontSize>
                     <dg:DataGrid.Columns>
-                        <dg:DataGridColumn Title="Date" PropertyName="WorkDate" Width="1.5*"/>
+                        <dg:DataGridColumn Title="Day" PropertyName="WorkDay" Width="1.5*"/>
                         <dg:DataGridColumn Title="Start Time" PropertyName="WorkStartTime" Width="1.5*"/>
                         <dg:DataGridColumn Title="End Time" PropertyName="WorkEndTime" Width="1.5*"/>
                     </dg:DataGrid.Columns>

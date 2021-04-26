@@ -13,28 +13,19 @@
 
         <!--Chart desribing assessments-->
         <chart:SfChart>
-
             <chart:SfChart.PrimaryAxis>
-
                 <chart:CategoryAxis/>
-
             </chart:SfChart.PrimaryAxis>
 
             <chart:SfChart.SecondaryAxis>
-
                 <chart:NumericalAxis Interval="5"/>
-
             </chart:SfChart.SecondaryAxis>
 
             <chart:RadarSeries ItemsSource="{Binding Data}" DrawType="Line"
           XBindingPath="AssessmentType" YBindingPath="AssessmentScore"  />
-
         </chart:SfChart>
 
-
-
-
-
+        <!--Button to return to main menu-->
         <Button Text="Return to Main Menu"
                 HorizontalOptions="StartAndExpand" 
                 TextColor="Green"
@@ -44,5 +35,4 @@
                 WidthRequest="120"
                 HeightRequest="60" TextTransform="None" />
     </StackLayout>
-
 </ContentPage>

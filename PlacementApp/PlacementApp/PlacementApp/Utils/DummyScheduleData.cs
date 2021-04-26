@@ -11,12 +11,12 @@ namespace PlacementApp.Utils
             var data = new List<Schedule>();
             var person = new Schedule()
             {
-                WorkDate = "2020-09-04",
-                WorkStartTime = "09:00:00.0000000",
-                WorkEndTime = "14:00:00.0000000"
+                WorkDay = "Monday",
+                WorkStartTime = "09:00",
+                WorkEndTime = "14:00"
             };
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 7; i++)
             {
                 data.Add(person);
 

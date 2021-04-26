@@ -5,7 +5,7 @@ namespace PlacementApp.Models
     {
         public string ScheduleID { get; set; }
         public string PlacementID { get; set; }
-        public string WorkDate { get; set; }
+        public string WorkDay { get; set; }
         public string WorkStartTime { get; set; }
         public string WorkEndTime { get; set; }
     }
