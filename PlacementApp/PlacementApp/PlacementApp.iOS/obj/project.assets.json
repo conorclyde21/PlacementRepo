@@ -26,6 +26,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Geofence/1.8.11": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Geofence.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geofence.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -345,6 +357,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Geofence": "1.8.11",
           "Syncfusion.Xamarin.SfChart": "19.1.0.57",
           "System.Data.SqlClient": "4.8.2",
           "Xamarin.Essentials": "1.6.1",
@@ -386,6 +399,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Geofence/1.8.11": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Geofence.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geofence.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -695,6 +720,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Geofence": "1.8.11",
           "Syncfusion.Xamarin.SfChart": "19.1.0.57",
           "System.Data.SqlClient": "4.8.2",
           "Xamarin.Essentials": "1.6.1",
@@ -736,6 +762,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Geofence/1.8.11": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Geofence.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geofence.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -1045,6 +1083,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Geofence": "1.8.11",
           "Syncfusion.Xamarin.SfChart": "19.1.0.57",
           "System.Data.SqlClient": "4.8.2",
           "Xamarin.Essentials": "1.6.1",
@@ -1086,6 +1125,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Geofence/1.8.11": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Geofence.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geofence.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -1395,6 +1446,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Geofence": "1.8.11",
           "Syncfusion.Xamarin.SfChart": "19.1.0.57",
           "System.Data.SqlClient": "4.8.2",
           "Xamarin.Essentials": "1.6.1",
@@ -1555,6 +1607,25 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Plugin.Geofence/1.8.11": {
+      "sha512": "iUkr1mtcBvu4I4lbvZpAUgR2j1ezuWACYq+vIbD3Wptup58MeI72mA9eBmLTOkqZfGM8VglIRV4fX64OEBZD2g==",
+      "type": "package",
+      "path": "plugin.geofence/1.8.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Geofence.dll",
+        "lib/monoandroid10.0/Plugin.Geofence.xml",
+        "lib/monoandroid90/Plugin.Geofence.dll",
+        "lib/monoandroid90/Plugin.Geofence.xml",
+        "lib/netstandard2.0/Plugin.Geofence.dll",
+        "lib/netstandard2.0/Plugin.Geofence.xml",
+        "lib/xamarinios10/Plugin.Geofence.dll",
+        "lib/xamarinios10/Plugin.Geofence.xml",
+        "plugin.geofence.1.8.11.nupkg.sha512",
+        "plugin.geofence.nuspec"
       ]
     },
     "sqlite-net-pcl/1.7.335": {
@@ -2234,6 +2305,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "NETStandard.Library >= 2.0.3",
       "PlacementApp >= 1.0.0",
+      "Plugin.Geofence >= 1.8.11",
       "Syncfusion.Xamarin.SfChart >= 19.1.0.57",
       "System.Data.SqlClient >= 4.8.2",
       "Xamarin.Essentials >= 1.6.1",
@@ -2244,24 +2316,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Josh\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\My PC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josh\\Source\\Repos\\PlacementRepo4\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
+      "projectUniqueName": "D:\\Desktop\\App\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
       "projectName": "PlacementApp.iOS",
-      "projectPath": "C:\\Users\\Josh\\Source\\Repos\\PlacementRepo4\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Josh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josh\\Source\\Repos\\PlacementRepo4\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\obj\\",
+      "projectPath": "D:\\Desktop\\App\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\My PC\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\App\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\My PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2275,8 +2347,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Josh\\Source\\Repos\\PlacementRepo4\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
-              "projectPath": "C:\\Users\\Josh\\Source\\Repos\\PlacementRepo4\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
+            "D:\\Desktop\\App\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
+              "projectPath": "D:\\Desktop\\App\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
             }
           }
         }
@@ -2288,6 +2360,10 @@
           "NETStandard.Library": {
             "target": "Package",
             "version": "[2.0.3, )"
+          },
+          "Plugin.Geofence": {
+            "target": "Package",
+            "version": "[1.8.11, )"
           },
           "Syncfusion.Xamarin.SfChart": {
             "target": "Package",

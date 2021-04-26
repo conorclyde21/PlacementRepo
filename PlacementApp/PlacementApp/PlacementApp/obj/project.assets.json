@@ -51,6 +51,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Geofence/1.8.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Geofence.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Geofence.dll": {}
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -607,6 +616,25 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Plugin.Geofence/1.8.11": {
+      "sha512": "iUkr1mtcBvu4I4lbvZpAUgR2j1ezuWACYq+vIbD3Wptup58MeI72mA9eBmLTOkqZfGM8VglIRV4fX64OEBZD2g==",
+      "type": "package",
+      "path": "plugin.geofence/1.8.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Geofence.dll",
+        "lib/monoandroid10.0/Plugin.Geofence.xml",
+        "lib/monoandroid90/Plugin.Geofence.dll",
+        "lib/monoandroid90/Plugin.Geofence.xml",
+        "lib/netstandard2.0/Plugin.Geofence.dll",
+        "lib/netstandard2.0/Plugin.Geofence.xml",
+        "lib/xamarinios10/Plugin.Geofence.dll",
+        "lib/xamarinios10/Plugin.Geofence.xml",
+        "plugin.geofence.1.8.11.nupkg.sha512",
+        "plugin.geofence.nuspec"
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -1547,6 +1575,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Plugin.Geofence >= 1.8.11",
       "Syncfusion.Xamarin.SfChart >= 19.1.0.57",
       "System.Data.SqlClient >= 4.8.2",
       "Xamarin.Essentials >= 1.6.1",
@@ -1557,23 +1586,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Josh\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\My PC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josh\\Source\\Repos\\PlacementRepo4\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
+      "projectUniqueName": "D:\\Desktop\\App\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
       "projectName": "PlacementApp",
-      "projectPath": "C:\\Users\\Josh\\Source\\Repos\\PlacementRepo4\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
-      "packagesPath": "C:\\Users\\Josh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josh\\Source\\Repos\\PlacementRepo4\\PlacementApp\\PlacementApp\\PlacementApp\\obj\\",
+      "projectPath": "D:\\Desktop\\App\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
+      "packagesPath": "C:\\Users\\My PC\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\App\\PlacementApp\\PlacementApp\\PlacementApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\My PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1605,6 +1636,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Plugin.Geofence": {
+            "target": "Package",
+            "version": "[1.8.11, )"
           },
           "Syncfusion.Xamarin.SfChart": {
             "target": "Package",
@@ -1645,7 +1680,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
