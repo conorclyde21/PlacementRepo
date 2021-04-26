@@ -1,21 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PlacementApp.Pages.Profile">
-    
+             x:Class="PlacementApp.Views.Reflect">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Profile"
-                VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
+        <StackLayout Spacing="20">
+            <Label Text="Reflection Log" TextColor= "Green" />
 
-            
-            <Label Text="Student Name" />
+            <Editor />
 
-            <DatePicker />
-
-            <Label Text="Course" />
-
-            <Label Text="Address" />
+            <Button Text="Submit" BackgroundColor= "Green"/>
 
             <Button Text="Return to Main Menu"
                 HorizontalOptions="Start" 
@@ -27,8 +20,6 @@
                 CornerRadius="5"
                 WidthRequest="120"
                 HeightRequest="60" TextTransform="None" />
-
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

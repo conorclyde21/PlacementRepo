@@ -5,24 +5,12 @@
              NavigationPage.HasNavigationBar="false">
     
     <ContentPage.Content>
-        <StackLayout>
-
-
-
-
-            <TableView>
-                <TableRoot>
-                    <TableSection></TableSection>
-                </TableRoot>
-            </TableView>
-
-
-
-
+        <StackLayout Spacing="20">
 
             <Button Text="Profile" Clicked="MenuToProfile"/>
             <Button Text="Placement" Clicked="MenuToPlacement"/>
             <Button Text="Assessment" Clicked="MenuToAssessment"/>
+            <Button Text="Reflect" Clicked="MenuToReflect"/>
             <Button Text="Log Out" Clicked="MenuToLogin"/>
         </StackLayout>
     </ContentPage.Content>
