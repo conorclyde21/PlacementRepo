@@ -13,8 +13,8 @@ namespace PlacementApp.Utils
             {
                 AssessmentID = "1",
                 AssessmentDate = "2020-09-11",
-                AssessmentItemDesc = "Understand the importance of Health and Safety in the workplace",
-                AssessmentItemScore = "4"
+                AssessmentType = "Knowledge",
+                AssessmentScore = "4"
             };
 
             for (int i = 0; i < 10; i++)

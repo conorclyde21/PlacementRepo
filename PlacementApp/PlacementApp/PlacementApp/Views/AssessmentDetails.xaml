@@ -1,39 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid" xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid" xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms" xmlns:local="clr-namespace:PlacementApp.ViewModels"
              x:Class="PlacementApp.Views.AssessmentDetails">
-    <ContentPage.Content>
-        <ScrollView HeightRequest="3000">
-            <StackLayout Orientation="Vertical" Padding="20,20" Spacing="20">
-                <Label Text="Assessments" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
+
+    <ContentPage.BindingContext>
+        <local:AssessmentDetailsViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Orientation="Vertical" Padding="20,20" Spacing="20">
+        <!--Page heading-->
+        <Label Text="Assessments" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="Title"/>
+
+        <!--Chart desribing assessments-->
+        <chart:SfChart>
+
+            <chart:SfChart.PrimaryAxis>
+
+                <chart:CategoryAxis/>
+
+            </chart:SfChart.PrimaryAxis>
+
+            <chart:SfChart.SecondaryAxis>
+
+                <chart:NumericalAxis Interval="5"/>
+
+            </chart:SfChart.SecondaryAxis>
+
+            <chart:RadarSeries ItemsSource="{Binding Data}" DrawType="Line"
+          XBindingPath="AssessmentType" YBindingPath="AssessmentScore"  />
+
+        </chart:SfChart>
 
 
-                <Label Text="Your assessments are displayed in the following chart:" 
-                VerticalOptions="Start"/>
-
-                <chart:SfChart>
-
-                    <chart:SfChart.PrimaryAxis>
-                        <chart:CategoryAxis/>
-                    </chart:SfChart.PrimaryAxis>
-
-                    <chart:SfChart.SecondaryAxis>
-                        <chart:NumericalAxis Interval="5"/>
-                    </chart:SfChart.SecondaryAxis>
-                    <chart:RadarSeries ItemsSource="{Binding RadarData}" DrawType="Line"
-          XBindingPath="Name" YBindingPath="Value"  />
-
-                </chart:SfChart>
 
 
 
-
-             
-
-
-
-
-                <Button Text="Return to Main Menu"
+        <Button Text="Return to Main Menu"
                 HorizontalOptions="StartAndExpand" 
                 TextColor="Green"
                 BorderColor="Green"
@@ -41,7 +43,6 @@
                 CornerRadius="5"
                 WidthRequest="120"
                 HeightRequest="60" TextTransform="None" />
-            </StackLayout>
-        </ScrollView>
-    </ContentPage.Content>
+    </StackLayout>
+
 </ContentPage>

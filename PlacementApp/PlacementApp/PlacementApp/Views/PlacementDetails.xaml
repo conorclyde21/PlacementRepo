@@ -40,12 +40,14 @@
                     <Label Grid.Row="6" Text="Address:" FontSize="Subtitle"/>
                     <Label Grid.Row="6" Grid.Column="1" Text="Example address of the company"/>
                 </Grid>
-
+                
+                <!--Grid layout-->
                 <Label Text="Map:" 
                 VerticalOptions="StartAndExpand"
                 FontSize="Subtitle"/>
 
-                <maps:Map Grid.Row="5">
+                <!--Map of address-->
+                <maps:Map>
                     <x:Arguments>
                         <maps:MapSpan>
                             <x:Arguments>
@@ -62,6 +64,7 @@
                     </x:Arguments>
                 </maps:Map>
 
+                <!--Student's schedule-->
                 <Label Text="Schedule:" 
                 VerticalOptions="StartAndExpand"
                 FontSize="Subtitle"/>
@@ -117,7 +120,7 @@
                     <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Example additional information"/>
                 </Grid>
 
-
+                <!--Button to return to main menu-->
                 <Button Text="Return to Main Menu"
                 HorizontalOptions="StartAndExpand" 
                 TextColor="Green"

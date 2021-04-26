@@ -6,7 +6,7 @@ namespace PlacementApp.Models
     {
         public string AssessmentID { get; set; }
         public string AssessmentDate { get; set; }
-        public string AssessmentItemDesc { get; set; }
-        public string AssessmentItemScore { get; set; }
+        public string AssessmentType { get; set; }
+        public string AssessmentScore { get; set; }
     }
 }
