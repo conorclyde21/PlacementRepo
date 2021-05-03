@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HtxHYrG4e85huxug3dKjLzSx1PaXG+FyrtopMXNDsB2mvBmkBtFNrAmowDhwBH5NQaTPgouHG4dEwwo3bZUy4Q==",
+  "dgSpecHash": "NnVsAXk4+ThHD+fYUf5q0Frji7SWtpPqIjqL9nppd6PXCrgQ1tN2FGNHcGCF4WRG6vaqHSEBLo1i3KbRJyul9g==",
   "success": true,
-  "projectFilePath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
+  "projectFilePath": "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.iOS\\PlacementApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clyde\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -10,9 +10,9 @@
     "C:\\Users\\clyde\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
-    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.licensing\\19.1.0.57\\syncfusion.licensing.19.1.0.57.nupkg.sha512",
-    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.xamarin.core\\19.1.0.57\\syncfusion.xamarin.core.19.1.0.57.nupkg.sha512",
-    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.xamarin.sfchart\\19.1.0.57\\syncfusion.xamarin.sfchart.19.1.0.57.nupkg.sha512",
+    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.licensing\\19.1.0.58\\syncfusion.licensing.19.1.0.58.nupkg.sha512",
+    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.xamarin.core\\19.1.0.58\\syncfusion.xamarin.core.19.1.0.58.nupkg.sha512",
+    "C:\\Users\\clyde\\.nuget\\packages\\syncfusion.xamarin.sfchart\\19.1.0.58\\syncfusion.xamarin.sfchart.19.1.0.58.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
     "C:\\Users\\clyde\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",

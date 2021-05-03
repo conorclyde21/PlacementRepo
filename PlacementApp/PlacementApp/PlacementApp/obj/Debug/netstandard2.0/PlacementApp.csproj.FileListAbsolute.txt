@@ -96,3 +96,23 @@ D:\Desktop\App\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\P
 D:\Desktop\App\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\ref\PlacementApp.dll
 D:\Desktop\App\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.pdb
 D:\School 210421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\Reflect.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\bin\Debug\netstandard2.0\PlacementApp.deps.json
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\bin\Debug\netstandard2.0\PlacementApp.dll
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\bin\Debug\netstandard2.0\ref\PlacementApp.dll
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\bin\Debug\netstandard2.0\PlacementApp.pdb
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.csprojAssemblyReference.cache
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\AssessmentDetails.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\PlacementDetails.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\Profile.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\Views\Reflect.xaml.g.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.AssemblyInfoInputs.cache
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.AssemblyInfo.cs
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.csproj.CoreCompileInputs.cache
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.dll
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\ref\PlacementApp.dll
+D:\School 290421\FDSD\FDSD2\WBL\Work\Git\PlacementApp\PlacementApp\PlacementApp\obj\Debug\netstandard2.0\PlacementApp.pdb

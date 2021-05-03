@@ -88,7 +88,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/19.1.0.57": {
+      "Syncfusion.Licensing/19.1.0.58": {
         "type": "package",
         "compile": {
           "lib/MonoAndroid10.0/Syncfusion.Licensing.dll": {}
@@ -97,10 +97,10 @@
           "lib/MonoAndroid10.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.1.0.57": {
+      "Syncfusion.Xamarin.Core/19.1.0.58": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "19.1.0.57",
+          "Syncfusion.Licensing": "19.1.0.58",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -112,10 +112,10 @@
           "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfChart/19.1.0.57": {
+      "Syncfusion.Xamarin.SfChart/19.1.0.58": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.1.0.57",
+          "Syncfusion.Xamarin.Core": "19.1.0.58",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1268,7 +1268,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Syncfusion.Xamarin.SfChart": "19.1.0.57",
+          "Syncfusion.Xamarin.SfChart": "19.1.0.58",
           "System.Data.SqlClient": "4.8.2",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
@@ -1499,10 +1499,10 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
-    "Syncfusion.Licensing/19.1.0.57": {
-      "sha512": "95dDhD9i5vhVN3ggMX6c3Z7ekZcgJftgr6CSTRv9FGPx7biJKny4vj7Oo7Azvvs0Dbv7BGqjv/ggjBBLmrv9nw==",
+    "Syncfusion.Licensing/19.1.0.58": {
+      "sha512": "GnNbMdbrupvjQ/5ZxWc5zL1oW7FI6KrzAogcMn+wrmKgP8zvE854dWNoGOYhoYtKiDeEuJeBq4No3f4+rFdJWA==",
       "type": "package",
-      "path": "syncfusion.licensing/19.1.0.57",
+      "path": "syncfusion.licensing/19.1.0.58",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1524,14 +1524,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.19.1.0.57.nupkg.sha512",
+        "syncfusion.licensing.19.1.0.58.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Core/19.1.0.57": {
-      "sha512": "aAfHlU7thQOkGOyZqkdp0LaHVWnbu7GPZkH9+VbE8wSGCcsq6WeBMPM4O5DhKUf85eyYRRckjnTVlAOP/PWdMg==",
+    "Syncfusion.Xamarin.Core/19.1.0.58": {
+      "sha512": "rGgEaoxQ25sen73KfyjA7+hHVP1Wudz1Hm8RGAbrvCaVd0wSghMXaggjHCnCvPKWin2+KrMBLyJzlPKafG2eJA==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/19.1.0.57",
+      "path": "syncfusion.xamarin.core/19.1.0.58",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1559,14 +1559,14 @@
         "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
         "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.19.1.0.57.nupkg.sha512",
+        "syncfusion.xamarin.core.19.1.0.58.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfChart/19.1.0.57": {
-      "sha512": "dMQ7N1uRkii9G+1NIAQP3X/AOOP23BVq+0A2967Jl7znW0Hf07Zhz5MvCDF9lZUI4ku4UV2sygXG265CCNBOKw==",
+    "Syncfusion.Xamarin.SfChart/19.1.0.58": {
+      "sha512": "K2ayDm9yLx3FN2mI38zG8l0h7zqhiqDeuqc9VyKCqtM8YF9mgEJuWwuETnS3opLO1M4iTR9ACUMGrhMPzc9ZfA==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfchart/19.1.0.57",
+      "path": "syncfusion.xamarin.sfchart/19.1.0.58",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1589,7 +1589,7 @@
         "lib/uap10.0/Syncfusion.SfChart.XForms.UWP.dll",
         "lib/uap10.0/Syncfusion.SfChart.XForms.dll",
         "lib/uap10.0/Syncfusion.SfChart.XForms.xml",
-        "syncfusion.xamarin.sfchart.19.1.0.57.nupkg.sha512",
+        "syncfusion.xamarin.sfchart.19.1.0.58.nupkg.sha512",
         "syncfusion.xamarin.sfchart.nuspec"
       ]
     },
@@ -3027,7 +3027,7 @@
     "MonoAndroid,Version=v10.0": [
       "NETStandard.Library >= 2.0.3",
       "PlacementApp >= 1.0.0",
-      "Syncfusion.Xamarin.SfChart >= 19.1.0.57",
+      "Syncfusion.Xamarin.SfChart >= 19.1.0.58",
       "System.Data.SqlClient >= 4.8.2",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
@@ -3043,11 +3043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
+      "projectUniqueName": "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
       "projectName": "PlacementApp.Android",
-      "projectPath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
+      "projectPath": "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\PlacementApp.Android.csproj",
       "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
-      "outputPath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\obj\\",
+      "outputPath": "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3068,8 +3068,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
-              "projectPath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
+            "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
+              "projectPath": "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj"
             }
           }
         }
@@ -3084,7 +3084,7 @@
           },
           "Syncfusion.Xamarin.SfChart": {
             "target": "Package",
-            "version": "[19.1.0.57, )"
+            "version": "[19.1.0.58, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {}
+    "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {}
   },
   "projects": {
-    "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
+    "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
+        "projectUniqueName": "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
         "projectName": "PlacementApp",
-        "projectPath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
+        "projectPath": "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\PlacementApp.csproj",
         "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
-        "outputPath": "D:\\School 210421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\obj\\",
+        "outputPath": "D:\\School 290421\\FDSD\\FDSD2\\WBL\\Work\\Git\\PlacementApp\\PlacementApp\\PlacementApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -52,7 +52,7 @@
             },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
-              "version": "[19.1.0.57, )"
+              "version": "[19.1.0.58, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
